@@ -17,7 +17,7 @@ func getProject() *Project {
 		Legal:        getLicense(),
 		Copyright:    copyrightLine(),
 		AppName:      "cmd",
-		PkgName:      "github.com/spf13/cobra/cobra/cmd/cmd",
+		PkgName:      "github.com/liggitt/cobra/cobra/cmd/cmd",
 		Viper:        true,
 	}
 }

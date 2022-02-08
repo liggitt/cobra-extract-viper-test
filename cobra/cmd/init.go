@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 	"github.com/spf13/viper"
 )
 
@@ -40,7 +40,7 @@ Cobra init must be run inside of a go module (please run "go mod init <MODNAME>"
 		Run: func(_ *cobra.Command, args []string) {
 			projectPath, err := initializeProject(args)
 			cobra.CheckErr(err)
-			cobra.CheckErr(goGet("github.com/spf13/cobra"))
+			cobra.CheckErr(goGet("github.com/liggitt/cobra"))
 			if viper.GetBool("useViper") {
 				cobra.CheckErr(goGet("github.com/spf13/viper"))
 			}

@@ -3,7 +3,7 @@
 Cobra provides its own program that will create your application and add any
 commands you want. It's the easiest way to incorporate Cobra into your application.
 
-Install the cobra generator with the command `go install github.com/spf13/cobra/cobra`. 
+Install the cobra generator with the command `go install github.com/liggitt/cobra/cobra`. 
 Go will automatically install it in your `$GOPATH/bin` directory which should be in your $PATH. 
 
 Once installed you should have the `cobra` command available. Confirm by typing `cobra` at a 
@@ -56,7 +56,7 @@ cobra init
 go run main.go
 ```
 
-Cobra init can also be run from a subdirectory such as how the [cobra generator itself is organized](https://github.com/spf13/cobra).
+Cobra init can also be run from a subdirectory such as how the [cobra generator itself is organized](https://github.com/liggitt/cobra).
 This is useful if you want to keep your application code separate from your library code.
 
 #### Optional flags:
@@ -120,7 +120,7 @@ with `go run main.go help serve`, etc. would all work.
 
 You now have a basic Cobra-based application up and running. Next step is to edit the files in cmd and customize them for your application.
 
-For complete details on using the Cobra library, please read the [The Cobra User Guide](https://github.com/spf13/cobra/blob/master/user_guide.md#using-the-cobra-library).
+For complete details on using the Cobra library, please read the [The Cobra User Guide](https://github.com/liggitt/cobra/blob/master/user_guide.md#using-the-cobra-library).
 
 Have fun!
 

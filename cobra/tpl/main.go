@@ -40,7 +40,7 @@ import (
 	"fmt"{{ end }}
 	"os"
 
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 {{- if .Viper }}
 	"github.com/spf13/viper"{{ end }}
 )
@@ -128,7 +128,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
+	"github.com/liggitt/cobra"
 )
 
 // {{ .CmdName }}Cmd represents the {{ .CmdName }} command
